@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-nav { 
+    margin-left: auto; 
+}
+.bg-dark {
+    background-color: #138397!important;
+}
+h1 {
+    color: #626364;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+h3{
+    color: #138397;
+    font-weight: bold;
+}
+h5{
+    color: #138397;
+    font-weight: bold;
+}
+p{
+    color: #8d8f91;
+}
+.card {
+    border: none;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    height: 520px;   
+    border: none;
+}
+
+.card-text{
+    margin-left: 50px;
+}
+.card-footer{
+    margin-left: 50px;
+    border: none;   
+}
+.btn {
+    background-color: DodgerBlue; 
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer;
+  }
+   
+  .btn:hover {
+    background-color: beige;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+.card-text{
+    margin-left: 0px;
+}
+.card-footer{
+    margin-left: 0px;
+    border: none;   
+}
+  }
